@@ -1,0 +1,81 @@
+.wrapper{
+    width: 1000px;
+    margin: auto;
+}
+.toper{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px; 
+}
+.registr{
+    text-decoration: none;
+    color: rgba(20, 19, 19, 0.699);
+    font-size: 20px;
+    font-weight: bold;
+    transition: box-shadow 0.5s;
+    line-height: 30px;
+    
+}
+.registr:hover{
+    box-shadow: 0 2px 0  black;
+}
+/*Search form*/
+.block-searcht{
+    margin-right: 100px;
+}
+.search{
+    padding: 10px;
+
+}
+.search-btn{
+    width: 55px;
+    height: 39px;
+    margin-left: -5px;
+}
+/*Search form*/
+/*Form registration*/
+.block-form-regist{
+    width: 800px;
+    max-width: 100%;
+    background: #373737;
+    opacity: 0.7;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block-input{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.block-form-regist_title{
+    font-size: 25px;
+    font-family: Arial sans-serif;
+    margin-bottom: 5px;
+    color: #f0f8ff;
+}
+.wrapper-block-input{
+    display: flex;
+    justify-content: space-between;
+
+}
+#form-registration input{
+    padding: 10px 15px;
+    margin: 15px;
+    font-size: 20px;
+}
+.block-select_title{
+    color: #f0f8ff;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.error-style{
+    list-style: none;
+    font-weight: bold;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+/*Form registration END*/
